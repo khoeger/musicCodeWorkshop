@@ -50,6 +50,6 @@ for character in characterList:
     p.append(nextNote)
 
 s.append(p)     # add part to stream
-s.show('midi')  # play stream
+
 # --- Save File
 s.write('midi', fp = "iLoveCodeland.mid")
